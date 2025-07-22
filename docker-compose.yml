@@ -11,7 +11,7 @@ services:
     environment:
       - PGHOST=postgres
       - PGUSER=postgres
-      - PGPASSWORD=admin123
+      - PGPASSWORD=admin834
       - PGDATABASE=job_applications_db
       - PGPORT=5432
     volumes:
@@ -56,7 +56,7 @@ services:
       - "5209:5432"
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin123
+      POSTGRES_PASSWORD: admin834
       POSTGRES_DB: job_applications_db
     volumes:
       - postgres_data:/var/lib/postgresql/data

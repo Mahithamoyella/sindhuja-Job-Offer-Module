@@ -19,7 +19,7 @@ const pool = new Pool({
     user: 'postgres',
     host: 'postgres',
     database: 'job_applications_db',
-    password: 'admin123',
+    password: 'admin834',
     port: 5432,
 });
 
@@ -323,5 +323,5 @@ app.delete('/api/applications', async (req, res) => {
 
 // Start server
 app.listen(port, () => {
-    console.log(`Server running at http:// 3.85.61.23:${port}`);
+    console.log(`Server running at http://13.221.80.34:${port}`);
 });
